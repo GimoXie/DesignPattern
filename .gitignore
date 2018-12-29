@@ -18,7 +18,7 @@ __ConfigTemp
 .project
 .settings
 .idea
-.out
+out
     
 ##filter databfile##
 *.mdb  
