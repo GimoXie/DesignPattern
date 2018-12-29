@@ -11,11 +11,11 @@ class Client {
         factory.getHero("Ezreal").display();
         factory.getHero("Katarina").display();
         factory.getHero("Kayle").display();
-
+        System.out.println();
         // 工厂方法
         factory.getEzreal().display();
         factory.getKatarina().display();
-
+        System.out.println();
         // 静态工厂方法无需实例化工厂
         HeroFactory.newEzreal().display();
         HeroFactory.newKatarina().display();

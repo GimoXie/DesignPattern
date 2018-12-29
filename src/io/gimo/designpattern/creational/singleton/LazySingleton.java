@@ -3,15 +3,16 @@ package io.gimo.designpattern.creational.singleton;
 /**
  * 懒汉式
  */
-public class LazySingleton {
+class LazySingleton {
 
     private static LazySingleton lazySingleton = null;
 
     private LazySingleton() {
-
+        System.out.println("new LazySingleton()");
     }
 
-    private static LazySingleton getInstance() {
+    public static LazySingleton getInstance() {
+        System.out.println("get LazySingleton instance");
         /**
          * 这里就提现了懒汉式的懒
          * 实例在第一次用到的时候才加载 懒加载
