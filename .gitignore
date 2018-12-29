@@ -18,8 +18,8 @@ __ConfigTemp
 .project
 .settings
 .idea
+.out
     
 ##filter databfile##
 *.mdb  
 *.ldb
-/OSDOnlineService/OSDOnlineService/obj/Debug/*.cache
