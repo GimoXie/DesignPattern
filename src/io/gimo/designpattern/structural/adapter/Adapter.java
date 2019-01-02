@@ -1,6 +1,6 @@
 package io.gimo.designpattern.structural.adapter;
 
-public class Adapter implements Target {
+class Adapter implements Target {
 
     /**
      * Adaptee也可以通过继承的方式被扩展进来
