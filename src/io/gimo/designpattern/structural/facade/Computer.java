@@ -3,7 +3,7 @@ package io.gimo.designpattern.structural.facade;
 /**
  * Created by zmxie on 2019/1/4.
  */
-public class Computer {
+class Computer {
     private Cpu cpu;
     private Disk disk;
     private Memory memory;
