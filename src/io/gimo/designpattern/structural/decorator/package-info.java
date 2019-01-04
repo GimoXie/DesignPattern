@@ -1,5 +1,5 @@
 /**
- * 装潢模式
+ * 装饰模式
  * Decorator
  * Sourceable
  * Source
