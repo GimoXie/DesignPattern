@@ -3,6 +3,6 @@ package io.gimo.designpattern.structural.bridge;
 public class Triangle extends Shape {
     @Override
     public void draw() {
-        getColor().tinting("三角形");
+        System.out.println(getColor().tinting() + "三角形");
     }
 }
