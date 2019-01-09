@@ -5,7 +5,7 @@ package io.gimo.designpattern.structural.proxy;
  */
 class Proxy implements Subject {
 
-    private RealSubject subject;
+    private ConcreteSubject subject;
 
     /**
      * 此处体现与装饰模式的区别
@@ -13,7 +13,7 @@ class Proxy implements Subject {
      * 代理模式只能传入具体的一个实现类
      * @param subject
      */
-    public Proxy(RealSubject subject) {
+    public Proxy(ConcreteSubject subject) {
         this.subject = subject;
     }
 

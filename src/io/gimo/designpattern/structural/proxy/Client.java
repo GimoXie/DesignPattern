@@ -5,7 +5,7 @@ package io.gimo.designpattern.structural.proxy;
  */
 class Client {
     public static void main(String[] args) {
-        Subject subject = new Proxy(new RealSubject());
+        Subject subject = new Proxy(new ConcreteSubject());
         subject.method();
     }
 }

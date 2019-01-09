@@ -6,7 +6,7 @@ package io.gimo.designpattern.structural.decorator;
 class Client {
 
     public static void main(String[] args) {
-        Sourceable source = new Decorator(new Source());
+        Component source = new Decorator(new ConcreteComponent());
         source.method();
     }
 }

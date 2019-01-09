@@ -3,17 +3,17 @@ package io.gimo.designpattern.structural.decorator;
 /**
  * Created by zmxie on 2019/1/2.
  */
-class Decorator implements Sourceable {
+class Decorator implements Component {
 
-    private Sourceable source;
+    private Component component;
 
-    Decorator(Sourceable source) {
-        this.source = source;
+    Decorator(Component component) {
+        this.component = component;
     }
 
     @Override
     public void method() {
         System.out.println("Decorator::method");
-        source.method();
+        component.method();
     }
 }
